@@ -39,13 +39,18 @@
     <div class="container-fluid">
         <div class="row">
             <div id="logo_container" class="col-md-12">
-
+                <div id="logo_content">
+                    <img class="rounded-circle" src="res/images/logo.jpg" alt="team goon squad logo" />
+                    <h1>G.oing O.ff O.n N.ights</h1>
+                    <h2>A Group of Nightowls and All-Nighters</h2>
+                </div>
             </div>
         </div>
     </div> <!-- .container-fluid -->
     <div id="main_container" class="container">
         <div class="row">
-            <div class="col-md-2">
+            <div id="main_nav" class="col-md-2">
+                <img class="rounded-circle" src="res/images/logo.jpg" alt="team goon squad logo" />
                 <nav class="nav nav-pills flex-column nav_custom">
                     <a class="nav-item nav-link active" href="#overview" data-toggle="pill">Overview</a>
                     <a class="nav-item nav-link" href="#members" data-toggle="pill">Members</a>
@@ -53,7 +58,61 @@
             </div>
             <div id="main_content" class="col-md-10 tab-content">
                 <div id="overview" class="tab-pane fade show active">
+                    <h1>G.O.O.N. Squad</h1>
+                    <div class="row intro">
+                        <div class="col-md-2">
+                            <h2>Members</h2>
+                        </div>
+                        <div class="col-md-10">
+                            <ul>
+                                <li>Nik L. Quibin</li>
+                                <li>Junil Patel</li>
+                                <li>Leo Li</li>
+                                <li>Swarna Datta</li>
+                                <li>Joon Choi</li>
+                                <li>Laine London</li>
+                                <li>Brian Liu</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row intro">
+                        <div class="col-md-2">
+                            <h2>Team Strengths</h2>
+                        </div>
+                        <div class="col-md-10">
+                            <ul>
+                                <li>Smart, competent, and ambitious developers.</li>
+                                <li>Hard workers and optimistic, thus we stay up all night to get things done.</li>
+                                <li>Proficient in many languages such as Java, C, C++, C# Python, HTML, CSS, JavaScript, etc.</li>
+                                <li>Knowledgeable about software development and utilities such as Scrum, GitHub, SQL, Bash, etc.</li>
+                                <li>Innovative, creative, and entrepreneurs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row intro">
+                        <div class="col-md-2">
+                            <h2>Team Goals</h2>
+                        </div>
+                        <div class="col-md-10">
+                            <ul>
+                                <li>Achieve the best possible grade we can by doing our best with our contribution.</li>
+                                <li>Learn how to build upon an open-source project.</li>
+                                <li>Strengthen our software development skills and build on the stuff we've learned in C01.</li>
+                                <li>Hopefully we can have our work added on to the main open-source project.</li>
+                                <li>Find new strengths and interests we may have while taking this course.</li>
+                                <li>Overall to have fun and learn something new.</li>
+                            </ul>
+                        </div>
+                    </div>
                     <h1>Team Agreement</h1>
+                    <div class="row agreement">
+                        <div class="col-md-12">
+                            <p id="pdf_par">
+                                Our signed team agreement pdf can be found
+                                <a href="team_agreement.pdf" target="_blank">here</a>.
+                            </p>
+                        </div>
+                    </div>
                     <div class="row agreement">
                         <div class="col-md-2">
                             <h2>Method of Communication</h2>
@@ -61,7 +120,7 @@
                         <div class="col-md-10">
                             <p>
                                 Our main form of communication software is Discord. We will have different channels
-                                for development, casual conversations, etc by using Facebook Messenger and general texting.
+                                for development, casual conversations, etc. by using Facebook Messenger and general texting.
                                 Through these channels we will be able to keep everything in one place while making sure
                                 our work is organized.
                             </p>
@@ -124,9 +183,10 @@
                         </div>
                         <div class="col-md-10">
                             <p>
-                                Before submitting final version of the deliverable, one person will look over and proofread all relevant
-                                data to insure that there are no grammar/punctuation mistakes. This person is changed per deliverable submission.
-                                This must be done atleast one day prior to deliverable deadline so the necessary alterations can be made.
+                                Before submitting the final version of the deliverable, all members will look over and proofread all relevant
+                                data to ensure that there are no grammar/punctuation mistakes, meet the assignment requirements, and have
+                                satisfactory writing. This must be done atleast one day prior to deliverable deadline so the necessary
+                                alterations can be made.
                             </p>
                         </div>
                     </div>
@@ -142,6 +202,51 @@
                         </div>
                     </div>
                     <h1>Definition of Done</h1>
+                    <div class="dod">
+                        <h2>For A Feature</h2>
+                        <p>
+                            The relevant code functions as intended, does not cause bugs elsewhere, is commented, and documented. This is as a
+                            result of the following:
+                        </p>
+                        <ul>
+                            <li>
+                                All members briefly tested the feature, reviewed the style of coding and documentation to be as consistent
+                                as possible with the rest of Matplotlib, and gave their consent for submission.
+                            </li>
+                            <li>
+                                Designated member(s) tested Matplotlib with the new feature rigorously via pytest and recorded testing results.
+                            </li>
+                            <li>
+                                If a test case failed, code was debugged, re-written, and re-tested.
+                            </li>
+                            <li>
+                                If the changes as a result of debugging were extensive, code was reviewed by the group again.
+                            </li>
+                            <li>
+                                This process was repeated until the group gave their consent for submission.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dod">
+                        <h2>For A Deliverable</h2>
+                        <p>
+                            The deliverable meets the assignment requirements. This is as a result of the following:
+                        </p>
+                        <ul>
+                            <li>
+                                All members proofread the deliverable for meeting the assignment requirements and for satisfactory writing.
+                            </li>
+                            <li>
+                                Proposed changes were discussed on Discord and implemented.
+                            </li>
+                            <li>
+                                If the changes as a result of proofreading were extensive, the deliverable was proofread again.
+                            </li>
+                            <li>
+                                This process was repeated until the group gave their consent for submission.
+                            </li>
+                        </ul>
+                    </div>
                 </div> <!-- #overview -->
                 <div id="members" class="tab-pane fade">
                     <nav id="nav_members" class="nav nav-pills nav-fill nav_custom">
