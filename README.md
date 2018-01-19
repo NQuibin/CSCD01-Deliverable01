@@ -1,6 +1,8 @@
 # CSCD01-Deliverable01
 Deliverable 01 for CSCD01
 
+GOON Squad
+
 Members (& GitHub):
 1. Nik (Nikki) L. Quibin - NQuibin
 2. Junil Patel - junil95
