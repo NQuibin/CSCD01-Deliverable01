@@ -1,10 +1,10 @@
 # CSCD01-Deliverable01
 Deliverable 01 for CSCD01
 
-GOON Squad
+GOON Squad - <https://gravitybear.github.io/>
 
 Members (& GitHub):
-1. Nik (Nikki) L. Quibin - NQuibin
+1. Nikki (Nik) L. Quibin - NQuibin
 2. Junil Patel - junil95
 3. Leo Li - leo-jh-li
 4. Swarnajyoti (Swarna) Datta - SwarnaD
